@@ -1,0 +1,1 @@
+cmd_/home/ubuntu20/linux/kernel_5.1/linuxtest/1.helloworld/Module.symvers := sed 's/\.ko$$/\.o/' /home/ubuntu20/linux/kernel_5.1/linuxtest/1.helloworld/modules.order | scripts/mod/modpost     -o /home/ubuntu20/linux/kernel_5.1/linuxtest/1.helloworld/Module.symvers -e -i Module.symvers   -T -

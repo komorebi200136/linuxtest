@@ -1,0 +1,1 @@
+cmd_/home/ubuntu20/linux/kernel_5.1/linuxtest/1.helloworld/helloworld.mod := { echo  /home/ubuntu20/linux/kernel_5.1/linuxtest/1.helloworld/helloworld.o;  echo; } > /home/ubuntu20/linux/kernel_5.1/linuxtest/1.helloworld/helloworld.mod
