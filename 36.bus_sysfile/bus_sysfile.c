@@ -29,7 +29,7 @@ struct bus_attribute attr = {
 
 int mybus_match(struct device *dev, struct device_driver *drv)
 {
-	return strcmp(dev_name(dev), drv->name);
+	return strcmp(dev_name(dev), drv->name) == 0;
 }
 
 int mybus_probe(struct device *dev)
